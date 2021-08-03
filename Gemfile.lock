@@ -1,0 +1,72 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    childprocess (3.0.0)
+    e2mmap (0.1.0)
+    nokogiri (1.12.0-x86_64-darwin)
+      racc (~> 1.4)
+    parallel (1.20.1)
+    parser (3.0.2.0)
+      ast (~> 2.4.1)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    proxy_chain_rb (0.1.2)
+    racc (1.5.2)
+    rainbow (3.0.0)
+    regexp_parser (2.1.1)
+    rexml (3.2.5)
+    rubocop (1.18.4)
+      parallel (~> 1.10)
+      parser (>= 3.0.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.8.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.8.0)
+      parser (>= 3.0.1.1)
+    ruby-progressbar (1.11.0)
+    rubyzip (2.3.2)
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
+    thwait (0.2.0)
+      e2mmap
+    tty-color (0.6.0)
+    tty-cursor (0.7.1)
+    tty-font (0.5.0)
+    tty-prompt (0.23.1)
+      pastel (~> 0.8)
+      tty-reader (~> 0.8)
+    tty-reader (0.9.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.8)
+      wisper (~> 2.0)
+    tty-screen (0.8.1)
+    unicode-display_width (2.0.0)
+    watir (6.19.1)
+      regexp_parser (>= 1.2, < 3)
+      selenium-webdriver (>= 3.142.7)
+    webdrivers (4.6.0)
+      nokogiri (~> 1.6)
+      rubyzip (>= 1.3.0)
+      selenium-webdriver (>= 3.0, < 4.0)
+    wisper (2.0.1)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  pastel
+  proxy_chain_rb
+  rubocop
+  thwait
+  tty-font
+  tty-prompt
+  watir
+  webdrivers (~> 4.5)
+
+BUNDLED WITH
+   2.2.21
